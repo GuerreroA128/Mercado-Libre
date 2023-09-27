@@ -1,0 +1,262 @@
+*
+{
+  color: #000000;
+  font-size: 18px;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: 'Metrophobic', Arial, serif; font-weight: 400;
+}
+
+body
+{
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+header{
+  text-align: center;
+  background-color: rgb(238, 241, 44);
+  border-radius: 15px;
+  padding:30px;
+}
+section,
+footer
+{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding:30px;
+}
+
+header,
+footer
+{
+  width: 100%;
+  padding: 40px;
+}
+
+header,
+section,
+footer
+{
+  margin-bottom: 5px;
+}
+
+h1
+{
+  margin: 0;
+}
+
+body{
+  font-family:arial,sans-serif;
+    }
+
+#nave{
+  width:100%;
+  height:120px;
+  background:#c2c2c2;
+  background-size:cover;
+  border-radius: 15px;
+  align-items: center;
+  min-height: 90px;
+  z-index: 1000;
+}
+.nav ul{
+  list-style: none;
+  padding: 0 10px;
+}
+#nave_wrapper{
+  width:auto;
+  height:auto;
+  background:#c2c2c2;
+  margin-left:900px;
+  margin-right:auto; 
+  align-items: center;
+  opacity:0.7;
+  filter:alpha (opacity=70)/*IE8 earlier */
+}
+
+#nave_wrapper ul li{
+display: inline-block;
+margin-right: 45px;
+font-size: 30px;
+text-align: right;
+ 
+}
+#nave_wrapper a{
+  color:rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 20px;
+  transition: .3s linear;
+}
+/*seleccion menu*/
+#nave_wrapper ul li:hover{
+  background:yellow;
+  transform: scale(1.1);
+    
+}
+
+
+
+section
+{
+  float: center;
+  width: calc(99% - 100px);
+  margin: 0 50px 50px 50px;
+}
+
+footer
+{
+  clear: both;
+  
+}
+
+/*Menu de opciones*/
+/* Left column (menu) */
+.left {
+  flex: 15%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+
+/* Estilo el menú de navegación dentro de la columna izquierda */
+* {
+  box-sizing: border-box;
+}
+
+/* Crear un diseño de columna con Flexbox */
+.row {
+  display: flex;
+}
+
+/* Columna izquierda (menú) */
+.left {
+  flex: 25%;
+  padding: 1px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Columna derecha (contenido de la página) */
+.center {
+  flex: 5%;
+  padding: 1px;
+  }
+
+.right {
+  flex: 75%;
+  padding: 1px;
+  }
+
+/* color marco del buscador*/
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  color: black;
+  border:1px solid #ddd;
+}
+
+/* Estilo el menú de navegación dentro de la columna izquierda */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* color texto */
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+/* color selector Menu seccion */
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+
+
+/*tamaño caja mensaje*/
+.form__fieldset{
+  max-width: 1300px;
+ }
+/*titulo*/
+.form__legend {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+/*igualar texto y cajas*/
+.form__row {
+  margin-bottom: 0.2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+/*cajas*/
+.form__label {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  flex: 1 0 120px;
+  max-width: 400px;
+}
+
+/*tamaño= cajas*/
+.form__textinput, .form__textarea {  
+  flex: 1 0 300px;
+  max-width: 500px;
+  box-sizing: border-box;
+  
+  }
+
+/*Borde cajas*/
+.form__textinput:focus:invalid,
+.form__textarea:focus:invalid {
+    border: 2px solid red;
+  font-size: 18px;
+  color: black;
+}
+/*Borde cajas ya contestadas*/
+ .form__textinput:valid ,
+ .form__textinput:focus:valid ,
+.form__textarea:valid ,
+.form__textarea:focus:valid  {
+  border: 2px solid green;
+  font-size: 15px;
+  color: black;
+}
+
+.form__textarea {
+  height: 90px;
+  
+ }
+ .logo{
+  float: left;
+  padding: 1px 20px 0;
+ }
+ .logo img{
+  height: 80px;
+ }
+ .logo img:hover{
+  transform: scale(1.1);
+ }
+
+
+
+
+
+
